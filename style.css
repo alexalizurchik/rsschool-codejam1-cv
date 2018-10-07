@@ -54,6 +54,10 @@ body	 {
   background-image: url(./images/github.png);
 }
 
+.phone-link:hover {
+	background: orange;
+}
+
 .phone-link,
 .mail-link,
 .github-link {
@@ -69,8 +73,16 @@ body	 {
   margin-bottom: 5px;
 }
 
-.experience td, 
-.education td {
-  padding-right: 40px;
-  padding-bottom: 40px;
+.timeline-table td:first-child {
+  width: 150px;
+}
+
+.timeline-table td {
+  padding-bottom: 20px;
+  vertical-align: top;
+}
+
+.avatar:hover {
+	transform: scale(1.4);
+	transition: transform 1s;
 }
