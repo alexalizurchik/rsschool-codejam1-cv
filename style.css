@@ -31,3 +31,31 @@ body	 {
 .avatar {
   border-radius: 50%;
 }
+
+.icon {
+  width: 16px; 
+  height: 16px; 
+  display: inline-block;
+  vertical-align: middle;	
+}
+
+.icon-phone {
+  background-image: url(./images/phone.png);
+}
+
+.icon-email {
+  background-image: url(./images/email.png);
+}
+
+.icon-github {
+  background-image: url(./images/github.png);
+}
+
+.phone-link,
+.mail-link,
+.github-link {
+  color: #494949;
+  text-decoration: underline dotted; 
+  display: inline-block;
+  margin-bottom: 5px;
+}
