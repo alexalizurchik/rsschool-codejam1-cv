@@ -31,7 +31,7 @@ body	 {
 }
 
 .job {
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 .avatar {
@@ -44,7 +44,7 @@ body	 {
 }
 
 .avatar:hover {
-	transform: scale(1.4);
+	transform: scale(1.4) translateY(20px);
 	transition: transform 1s;
 }
 
