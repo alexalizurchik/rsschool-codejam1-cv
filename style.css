@@ -1,0 +1,101 @@
+body	 {
+  position: relative;
+  width: 700px;
+  
+  margin: 0 auto;
+  
+  font-family: "Arial", sans-serif;
+  color: #494949;
+}
+
+.header {
+  display: block;
+}
+
+.title {
+  display: inline-block;
+  width: 500px;  
+  
+  text-transform: uppercase;
+  
+  vertical-align: top;
+}
+
+.subtitle {
+  margin-top: 35px;
+  
+  text-transform: uppercase;
+  color: #c34a5a;
+  
+  border-bottom: 0.5px solid #c34a5a;
+}
+
+.job {
+  margin-top: 0;
+}
+
+.avatar {
+  position: relative;
+  left: 96px;
+  
+  margin-top: 10px;
+  
+  border-radius: 50%;
+}
+
+.avatar:hover {
+	transform: scale(1.4) translateY(20px);
+	transition: transform 1s;
+}
+
+.icon {
+  display: inline-block;
+  width: 16px; 
+  height: 16px; 
+  
+  vertical-align: middle;	
+}
+
+.icon-phone {
+  background-image: url(./images/phone.png);
+}
+
+.icon-email {
+  background-image: url(./images/email.png);
+}
+
+.icon-github {
+  background-image: url(./images/github.png);
+}
+
+.social-link {
+  display: inline-block;
+  
+  margin-bottom: 5px;
+  
+  color: #494949;
+  text-decoration: underline dotted; 
+}
+
+.social-link--interactive:hover {
+  background: orange;
+}
+
+.code-example {
+  display: inline-block;
+   
+  margin-bottom: 5px;
+  
+  color: #494949;
+}
+
+.timeline-table td:first-child {
+  width: 150px;
+}
+
+.timeline-table td {
+  padding-bottom: 20px;
+  
+  vertical-align: top;
+}
+
