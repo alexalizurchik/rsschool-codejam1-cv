@@ -7,7 +7,7 @@ body	 {
 }
 
 .header {
-  display: inline-block;
+  display: block;
 }
 
 .title {
@@ -29,7 +29,10 @@ body	 {
 }
 
 .avatar {
+  position: relative;
   border-radius: 50%;
+  left: 96px;
+  margin-top: 10px;
 }
 
 .icon {
@@ -58,4 +61,16 @@ body	 {
   text-decoration: underline dotted; 
   display: inline-block;
   margin-bottom: 5px;
+}
+
+.code-example {
+  color: #494949;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.experience td, 
+.education td {
+  padding-right: 40px;
+  padding-bottom: 40px;
 }
